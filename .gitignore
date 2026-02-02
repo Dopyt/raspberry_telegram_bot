@@ -1,4 +1,4 @@
-# secrets
+# secrets (never commit)
 *.env
 .env
 local.env
@@ -7,7 +7,7 @@ local.env
 *.log
 bot.log
 
-# private scripts
+# private scripts you don't want on GitHub
 weather.py
 
 # python junk
@@ -15,3 +15,6 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+
+# OS/editor junk
+.DS_Store
