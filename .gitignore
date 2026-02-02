@@ -1,0 +1,17 @@
+# secrets
+*.env
+.env
+local.env
+
+# logs
+*.log
+bot.log
+
+# private scripts
+weather.py
+
+# python junk
+__pycache__/
+*.pyc
+.venv/
+venv/
